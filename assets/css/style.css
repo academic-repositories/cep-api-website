@@ -86,10 +86,16 @@ main > section > p {
 
 }
 
+main > section > form > div {
+    margin: 2vh 0;
+}
+
 main > section > form > div > input {
     height: 5vh; width: 100%;
     padding: 10px;
     font-weight: 1.25vw;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    border: 1px solid;
 }
 
 footer {
@@ -104,6 +110,7 @@ footer {
 footer > section > h2 {
     color: var(--off-white);
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
 
 }
 
