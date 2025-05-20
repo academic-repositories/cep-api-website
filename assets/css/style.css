@@ -64,7 +64,32 @@ header > nav > ul > li > a {
 }
 
 main {
-    height: 100vh; width: 100vw;
+    height: 100%; width: 100vw;
+    background-color: #CFCFCF;
+}
+
+main > section {
+    background-color: var(--off-white);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    height: 100%; max-width: 800px;
+    margin: auto; padding: 4vw;
+}
+
+main > section > h2 {
+    font-size: 2vw;
+    color: var(--strong-orange);
+}
+
+main > section > p {
+    margin: 2vh 0;
+    font-size: 1.25vw;
+
+}
+
+main > section > form > div > input {
+    height: 5vh; width: 100%;
+    padding: 10px;
+    font-weight: 1.25vw;
 }
 
 footer {
@@ -77,8 +102,8 @@ footer {
 }
 
 footer > section > h2 {
-    color: var(--strong-orange);
-    text-shadow: 2px 2px 6px rgba(255, 255, 255, 0.1);
+    color: var(--off-white);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -89,8 +114,8 @@ footer > section > ul > li {
 
 footer > section a {
     text-decoration: none;
-    text-shadow: 2px 2px 6px rgba(255, 255, 255, 0.1);
-    color: var(--strong-orange);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    color: var(--off-white);
     font-weight: 600;
 }
 
