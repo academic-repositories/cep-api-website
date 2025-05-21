@@ -98,6 +98,25 @@ main > section > form > div > input {
     border: 1px solid;
 }
 
+main > section > form > button {
+    height: 8vh; width: 100%;
+    margin: 2vh 0;
+    background-color: var(--strong-orange);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    font-size: 2vw;
+    font-variant: small-caps;
+    filter: opacity(.95);
+}
+
+main > section > form > button:hover {
+    filter: opacity(1);
+    cursor: pointer;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+
+}
+
 footer {
     display: flex;
     justify-content: space-around;
