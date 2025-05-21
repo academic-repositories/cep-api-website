@@ -15,7 +15,7 @@
 * {
   margin: 0; padding: 0;
   box-sizing: border-box;
-  font-family: var(--font);  
+  font-family: var(--font);
 }
 
 header {
@@ -30,16 +30,17 @@ header > h1, header > h2 {
 }
 
 header > h1 {
-    font-size: 5vw;
+    font-size: 4em;
     font-variant: small-caps;
 }
 
 header > h2 {
-    font-size: 3vw;
+    font-size: 2em;
 }
 
 header > nav {
     text-align: left;
+    margin-top: 4vh;
 }
 
 header > nav > ul > li {
@@ -76,13 +77,13 @@ main > section {
 }
 
 main > section > h2 {
-    font-size: 2vw;
+    font-size: 1.8em;
     color: var(--strong-orange);
 }
 
 main > section > p {
+    font-size: 1.2em;
     margin: 2vh 0;
-    font-size: 1.25vw;
 
 }
 
@@ -93,7 +94,7 @@ main > section > form > div {
 main > section > form > div > input {
     height: 5vh; width: 100%;
     padding: 10px;
-    font-weight: 1.25vw;
+    font-weight: 1.1em;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
     border: 1px solid;
 }
@@ -105,7 +106,7 @@ main > section > form > button {
     border-radius: 10px;
     border: none;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
-    font-size: 2vw;
+    font-size: 2em;
     font-variant: small-caps;
     filter: opacity(.95);
 }
@@ -121,9 +122,10 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-
+    gap: 20px;
     background-color: var(--light-green);
     padding: 4vh;
+    text-align: justify;
 }
 
 footer > section > h2 {
